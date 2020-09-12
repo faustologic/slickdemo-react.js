@@ -1,0 +1,23 @@
+.slides {
+    max-width:;
+    position: relative;
+    margin: auto;
+    width: 100%;
+}
+
+.wdt{  
+    top: 0;
+    width: 100% !important;
+}  
+
+.img  
+{  
+    height: 90vh;
+    top: 0;
+    width: 100% !important;
+    padding: 0;
+    margin: 0;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
