@@ -1,12 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import SlickDemo from './SlickDemo';
+import SlickDemo from './SlickDemo/SlickDemo';
+//import SpringSlider from './SpringSlider/SpringSlider';
 
 function App() {
   return (
     <div className="App">
       <SlickDemo />
+      {/*<SpringSlider />*/}
+      {/*<DemoCarousel />*/}
     </div>
   );
 }
