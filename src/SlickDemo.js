@@ -20,19 +20,11 @@ export class SlickDemo extends Component {
           };  
           return (  
             <div className="slides">    
-            <Slider {...settings} >    
-              <div className="wdt">  
-                <img  src= {'assets/W3.jpg'} className="img"/>  
-              </div>  
-              <div className="wdt">  
-                <img src= {'assets/W4.jpg'} className="img"/>  
-              </div>  
-              <div className="wdt">  
-                <img src= {'assets/W5.jpg'} className="img"/>  
-              </div >  
-              <div className="wdt">  
-                <img src= {'assets/W6.jpg'} className="img"/>  
-              </div>    
+            <Slider {...settings} >
+                <img src= {'assets/W3.jpg'} className="img"/>
+                <img src= {'assets/W5.jpg'} className="img"/>
+                <img src= {'assets/W6.jpg'} className="img"/>    
+                <img src= {'assets/W4.jpg'} className="img"/>    
             </Slider>  
             </div>  
           );  

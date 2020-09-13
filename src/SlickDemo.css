@@ -1,9 +1,8 @@
 .slides {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
 }
-
-.wdt{  
-    
-}  
 
 .img  
 {  
@@ -11,3 +10,10 @@
     width: 100%;
     z-index: -1;
 }
+
+@media only screen and (max-width: 600px) {
+    .img {
+      width: 100%;
+      height: auto;
+    }
+  }
